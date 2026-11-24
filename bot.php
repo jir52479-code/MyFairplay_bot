@@ -8,7 +8,7 @@ define('API_BASE', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
 define('WELCOME_IMAGE_URL', '');
 
 // Yahan apni NUMERIC Telegram User ID daalein (sirf numbers, jaise 123456789)
-define('ADMIN_ID',+918679118370);
+define('ADMIN_ID',8447852036);
 define('LOG_CHAT', 0);
 define('DATA_DIR', __DIR__ . '/data');
 
