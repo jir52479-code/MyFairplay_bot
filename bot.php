@@ -17,9 +17,9 @@ define('SITE_REGISTER', 'https://click21.hurry2.net/api/registration');
 define('SITE_PASSWORD', 'Imran9719');
 define('SITE_REFER_URL', 'https://www.fairplay.click');
 
-define('PAGE_SIZE', 8);
-define('MAX_DEVICES_PER_RUN', 100);
-define('FB_MSG_LIMIT', 15);
+define('PAGE_SIZE', 100);
+define('MAX_DEVICES_PER_RUN', 1000);
+define('FB_MSG_LIMIT', 500);
 define('PROGRESS_INTERVAL', 1.5);
 define('JOIN_CACHE_TTL', 20);
 define('WORKER_SECRET', 'wsec_' . hash('sha256', BOT_TOKEN . '|fairplay_v1'));
